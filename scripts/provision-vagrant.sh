@@ -21,7 +21,7 @@ Description=Jupyter Workplace
 [Service]
 Type=simple
 PIDFile=/run/jupyter.pid
-ExecStart=/home/vagrant/.pyenv/versions/anaconda3-5.1.0/bin/jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --NotebookApp.token= --notebook-dir=/home/vagrant/data
+ExecStart=/home/vagrant/.pyenv/versions/anaconda3-2019.10/bin/jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --NotebookApp.token= --notebook-dir=/home/vagrant/data
 User=vagrant
 Group=vagrant
 WorkingDirectory=/home/vagrant/data
